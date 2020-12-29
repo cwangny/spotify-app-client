@@ -29,7 +29,7 @@ function Track(props) {
   const theme = useTheme();
   
   return (
-    <Card className={classes.root} style={{backgroundColor: "#e0e0e0"}}>
+    <Card className={classes.root} style={{backgroundColor: "#f5f5f7"}}>
       <CardMedia
         className={classes.cover}
         image={props.item.imageData.url}

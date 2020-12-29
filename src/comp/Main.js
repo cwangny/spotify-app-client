@@ -262,7 +262,7 @@ function Main(props) {
 
       <Grid container justify="center" spacing={4} style={{marginBottom: 20}}>
         <Grid item>
-          <Button variant="contained" onClick={()=>handleGetArtist("short_term")}>One Month</Button>
+          <Button variant="contained" onClick={()=>handleGetArtist("short_term")} style={{backgroundColor: "#f5f5f7"}}>One Month</Button>
         </Grid>
         <Grid item>
           <Button variant="contained" onClick={()=>handleGetArtist("medium_term")}>Six Months</Button>
