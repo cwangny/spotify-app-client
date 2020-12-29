@@ -38,7 +38,7 @@ function App() {
       <div id="login-page">
         LOGIN STATUS = {isLoggedIn.toString()};
 
-        <a id="login-button" href="http://localhost:8888">
+        <a id="login-button" href="https://spotify-stats-main.herokuapp.com/">
           {hideLogin ? null: <button>Log in</button>}
         </a>
       </div>}
