@@ -33,7 +33,7 @@ function Track(props) {
       <CardMedia
         className={classes.cover}
         image={props.item.imageData.url}
-        title="album cover"
+        title="Rosé throw it bacc"
       />
       <div className={classes.details}>
         <CardContent className={classes.content}>
