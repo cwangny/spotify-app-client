@@ -131,9 +131,9 @@ function Main(props) {
     let prevSixMonth = getCurrentMonthOffsetSix();
 
     let description = {
-      "short_term": "Your 50 most played tracks since last month. From " + prevOneMonth + " to " + currentMonth + ". Sorted by most to least. Discover yours at https://www.google.com/",
-      "medium_term": "Your 50 most played tracks since last six months. From " + prevSixMonth + " to " + currentMonth + ". Sorted by most to least. Discover yours at https://www.google.com/",
-      "long_term": "Your 50 most played tracks of all time. Sorted by most to least. Discover yours at https://www.google.com/"
+      "short_term": "Your 50 most played tracks since last month. From " + prevOneMonth + " to " + currentMonth + ". Sorted by most to least. @ https://spotify-stats-main.herokuapp.com",
+      "medium_term": "Your 50 most played tracks since last six months. From " + prevSixMonth + " to " + currentMonth + ". Sorted by most to least. @ https://spotify-stats-main.herokuapp.com",
+      "long_term": "Your 50 most played tracks of all time. Sorted by most to least. @ https://spotify-stats-main.herokuapp.com"
     }
 
     let addDesc;
