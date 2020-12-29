@@ -265,10 +265,10 @@ function Main(props) {
           <Button variant="contained" onClick={()=>handleGetArtist("short_term")} style={{backgroundColor: "#f5f5f7"}}>One Month</Button>
         </Grid>
         <Grid item>
-          <Button variant="contained" onClick={()=>handleGetArtist("medium_term")}>Six Months</Button>
+          <Button variant="contained" onClick={()=>handleGetArtist("medium_term")} style={{backgroundColor: "#f5f5f7"}}>Six Months</Button>
         </Grid>
         <Grid item>
-          <Button variant="contained" onClick={()=>handleGetArtist("long_term")}>All Time</Button>
+          <Button variant="contained" onClick={()=>handleGetArtist("long_term")} style={{backgroundColor: "#f5f5f7"}}>All Time</Button>
         </Grid>
       </Grid>
 
@@ -289,7 +289,7 @@ function Main(props) {
       </Grid>
 
       <Grid container justify= "center" style={{marginBottom: 9}}>
-        <Button variant="contained" onClick={handleAddSongsToAPlaylist}>Add to a playlist</Button>
+        <Button variant="contained" onClick={handleAddSongsToAPlaylist} style={{backgroundColor: "#f5f5f7"}}>Add to a playlist</Button>
       </Grid>
       
       <Grid container justify="center" style={{marginBottom: 20}}>
@@ -300,13 +300,13 @@ function Main(props) {
 
       <Grid container justify="center" spacing={4} style={{marginBottom: 20}}>
         <Grid item>
-          <Button variant="contained" onClick={()=>handleGetTracks("short_term")}>One Month</Button>
+          <Button variant="contained" onClick={()=>handleGetTracks("short_term")} style={{backgroundColor: "#f5f5f7"}}>One Month</Button>
         </Grid>
         <Grid item>
-          <Button variant="contained" onClick={()=>handleGetTracks("medium_term")}>Six Months</Button>
+          <Button variant="contained" onClick={()=>handleGetTracks("medium_term")} style={{backgroundColor: "#f5f5f7"}}>Six Months</Button>
         </Grid>
         <Grid item>
-          <Button variant="contained" onClick={()=>handleGetTracks("long_term")}>All Time</Button>
+          <Button variant="contained" onClick={()=>handleGetTracks("long_term")} style={{backgroundColor: "#f5f5f7"}}>All Time</Button>
         </Grid>
       </Grid>
         
